@@ -424,6 +424,8 @@ export const contentRows: ContentRow[] = [
       {
         ...movies.find(movie => movie.genre.includes('Sci-Fi') || movie.genre.includes('Fantasy')) || movies[0],
         id: 'tavus-1',
+        title: 'Real Estate',
+        description: 'In the real estate industry, Tavus allows agents to send personalized videos to each potential buyer, showcasing properties and tailored messages. With just a few minutes of recording, agents can generate hundreds of different videos—boosting interest and engagement. It\'s a powerful tool to make every client interaction feel more personal and professional.',
         thumbnail: '/src/assets/1.jpg',
         backdrop: '/src/assets/1.jpg',
       },
